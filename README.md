@@ -51,6 +51,7 @@ SexyStrings provides the following file information for each analyzed executable
 - Python 3.x: [Download Python](https://www.python.org/downloads/)
 - python-magic: `pip install python-magic`
 - python-magic-bin: `pip install python-magic-bin`
+- for MacOS: `brew install libmagic`
 
 ## Usage
 
