@@ -7,7 +7,7 @@ SexyStrings is a Python script designed to analyze executable files for suspicio
 - **String Extraction**: The script extracts strings from executable files using the `strings` command-line tool.
 - **Suspicious String Detection**: It identifies suspicious patterns within the extracted strings, such as URLs, IP addresses, command-line commands, file paths, email addresses, network protocols, cryptographic hashes (MD5, SHA1, SHA256, SHA512), and specific command-line sequences (e.g., `icacls` commands).
 - **Malicious API Call Detection**: SexyStrings detects potentially malicious API calls within the extracted strings, including functions commonly used by malware for process manipulation, file operations, registry manipulation, network communication, and code injection.
-- **HTML Report Generation**: After analysis, the script generates an HTML report (`StringAnalysis.html`) summarizing the findings, including identified strings, suspicious patterns, malicious API calls, new executable files, and detailed file information.
+- **HTML Report Generation**: After analysis, the script generates an HTML report (`StringAnalysis.html`) summarizing the findings, including identified strings, suspicious patterns, malicious API calls, executable files, and detailed file information.
 - **Cross-Platform Compatibility Check**: SexyStrings checks the compatibility of the analyzed executable files across different platforms, flagging files that may not be compatible with Other Systems.
 
 ## How It Works
@@ -63,9 +63,6 @@ To analyze a Windows executable file named `malware.exe`, run the following comm
 ## Output Analysis
 
 After running the script, open the generated HTML report (`StringAnalysis.html`) in a web browser to review the analysis results and take appropriate actions based on the findings.
-
-## Compatibility
-- Python 3.x
 
 ## License
 
