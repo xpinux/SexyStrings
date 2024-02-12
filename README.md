@@ -2,6 +2,9 @@
 
 SexyStrings is a Python script designed to analyze executable files for suspicious strings and potential malware indicators. It extracts strings from executable files, identifies suspicious patterns, malicious API calls, and generates an HTML report with the analysis results. Additionally, it provides detailed information about the analyzed files, including file type, size, creation/modification/access times, and cryptographic hashes (SHA256, MD5).
 
+![image](https://github.com/xpinux/SexyStrings/assets/33750676/4e6a5741-b564-4b16-b54e-2044a56bf50e)
+
+
 ## Features
 
 - **String Extraction**: The script extracts strings from executable files using the `strings` command-line tool.
